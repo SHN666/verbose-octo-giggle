@@ -1,0 +1,80 @@
+img {
+	border-radius: 8px;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.column.side {
+	font-family: "Microsoft Yahei";
+	width: 25%;
+}
+
+.column.middle {
+	width: 50%;
+}
+#grad1 {
+	height: 200px;
+	background-color: blue;
+	background-image: linear-gradient(#e66465, #9182e5);
+}
+
+body {
+	margin: 0;
+}
+
+.biaoti {
+	width:100% ;
+	position: fixed;top: 0;padding: 0;
+	text-align: center;
+	background:url(99.gif)repeat  0px 0px
+	coral;
+
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0 solid #e7e7e7;
+	background-color: black;
+	top: 0;
+	width: 100%;
+	transition-duration: 0.8s;
+	cursor: pointer;
+}
+
+li {
+	float: left
+}
+
+li a {
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition:padding-left color 0.8s;
+	transition-duration: 0.4s;
+}
+
+li a:hover:not(.active) {
+	background-color: crimson;
+	padding: 14px 40px;
+}
+
+li a.active {
+
+	background-color: gray;
+}
+
+@font-face {
+	font-family: 'MyNewFont';   /*字体名称*/
+	src: url('./ziti.otf');       /*字体源文件*/
+}
+
+
